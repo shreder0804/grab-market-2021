@@ -1,5 +1,7 @@
 import axios from './node_modules/axios/dist/axios.min.js';
 
+// POSTMAN Mock Server를 이용한 임시 url 생성하여 get endpoint 작성 /product
+// axios와 innerHTML을 이용한 DOM 공부
 axios
   .get('https://0341113f-6211-4c3a-b909-a5707803615d.mock.pstmn.io/product')
   .then((res) => {
